@@ -4,7 +4,7 @@ Square class
 """
 
 
-class square():
+class Square():
     """ Implementation Square class """
     width = 0
     height = 0
@@ -16,9 +16,9 @@ class square():
 
     def area_of_my_square(self):
         """ Area of the square """
-        return self.width * self.width
+        return self.width * self.height
 
-    def PermiterOfMySquare(self):
+    def permiter_of_my_square(self):
         """ Perimeter of the square """
         return (self.width * 2) + (self.height * 2)
 
